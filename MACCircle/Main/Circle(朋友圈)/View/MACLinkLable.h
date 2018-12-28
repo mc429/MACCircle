@@ -11,7 +11,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MACLinkLable : NSObject
-
+// 获取linkLabel
+MLLinkLabel *MACLinkLabel(void);
+// 获取富文本
+NSMutableAttributedString *MLLinkLabelAttributedText(id object);
 @end
 
 NS_ASSUME_NONNULL_END

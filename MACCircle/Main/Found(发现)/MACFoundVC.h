@@ -6,11 +6,11 @@
 //  Copyright © 2018年 Marco. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MACBaseTVC.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MACFoundVC : MACBaseVC
+@interface MACFoundVC : MACBaseTVC
 
 @end
 

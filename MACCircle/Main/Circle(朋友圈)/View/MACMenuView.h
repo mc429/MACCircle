@@ -8,9 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
+@class MACCircleModel;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MACMenuView : UIView
+
+@property (nonatomic,assign)BOOL show;
+
+// 赞
+@property (nonatomic, copy) void (^likeMoment)(void);
+// 评论
+@property (nonatomic, copy) void (^commentMoment)(void);
+//点击了评论按钮
+@property (nonatomic,copy) void (^clickMoment)(void);
+//评论的model
+@property (nonatomic,strong)MACCircleModel *circleModel;
 
 @end
 

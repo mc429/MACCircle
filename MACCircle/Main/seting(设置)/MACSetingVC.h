@@ -6,7 +6,7 @@
 //  Copyright © 2018年 Marco. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MACBaseVC.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

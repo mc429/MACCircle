@@ -10,4 +10,10 @@
 
 @implementation MACAddressBookVC
 
+-(void)viewDidLoad{
+    [super viewDidLoad];
+    self.title = @"通讯录";
+    
+}
+
 @end

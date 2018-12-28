@@ -9,5 +9,10 @@
 #import "MACSetingVC.h"
 
 @implementation MACSetingVC
+-(void)viewDidLoad{
+    [super viewDidLoad];
+    self.title = @"设置";
+    
+}
 
 @end
